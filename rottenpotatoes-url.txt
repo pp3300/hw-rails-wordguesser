@@ -1,0 +1,1 @@
+https://wordguesser-rails-pp3300-564cddf71cac.herokuapp.com
