@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '~> 3.3', '>= 3.3.8'
 
 gem 'rails'
+gem 'webrick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -11,7 +12,6 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 4.2'
-  gem 'webrick'
 end
 
 group :test do
